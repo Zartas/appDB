@@ -1,0 +1,1011 @@
+/*
+ * style.css for AppDB
+ * Kyek
+ * August 8, 2008
+ */
+ 
+ 
+/* Construct
+ * ----------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	color: #fff;
+	font-size: 10px;
+	font-family: Arial, sans-serif;
+}
+
+#wrap {
+	float: left;
+	clear: right;
+	position: absolute;
+	width: 800px;
+	top: 0;
+	left: 50%;
+	margin-left: -400px;
+}
+
+a {
+	color: #2d42ff;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+a img {
+	border: 0;
+}
+
+h3 {
+	margin: 15px 0 15px 0;
+	padding: 0;
+	color: #f55;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+/* Header
+ * ----------------- */
+
+#header {
+	float: left;
+	clear: right;
+	margin-top: 30px;
+	width: 800px;
+	height: 149px;
+	background-image: url(../images/bartop.png);
+	background-repeat: repeat-x;
+	background-position: 0 142px;
+}
+
+#logo {
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+#account {
+	position: absolute;
+	top: 35px;
+	left: 494px;
+	width: 308px;
+	text-align: right;
+	font-size: 1.1em;
+	color: #aaa;
+}
+
+#account .username {
+	color: #fff;
+}
+
+#menubar {
+	position: absolute;
+	top: 74px;
+	left: 580px;
+	width: 220px;
+	text-align: right;
+}
+
+#menubar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-shadow: 0 0 0 #000;
+}
+
+#menubar ul li {
+	margin-top: 4px;
+}
+
+#menubar ul li a { color: #fff; }
+#menubar ul li a:hover {
+	color: #2d42ff;
+	text-decoration: none;
+}
+
+
+/* Content
+ * ----------------- */
+ 
+#content {
+	padding-top: 10px;
+	float: left;
+	clear: both;
+}
+
+select,
+input {
+	font-size: 11px;
+}
+
+h1#pagetitle {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+.appblock {
+	float: left;
+	width: 263px;
+	height: 73px;
+	background-image: url(../images/appblock.png);
+}
+
+.appblock_icon {
+	width: 57px;
+	height: 57px;
+	float: left;
+	margin: 8px 10px 0 9px;
+}
+
+.appblock_infoblock {
+	float: left;
+	clear: right;
+	width: 175px;
+	color: #000;
+	margin-top: 6px;
+}
+
+.appblock_name {
+	display: block;
+	font-weight: bold;
+	font-size: 1.5em;
+	height: 17px;
+	overflow: hidden;
+}
+
+.appblock_longname {
+	font-size: 1.2em;
+	height: 15px;
+	margin-top: 2px;
+}
+
+.appblock_company {
+	display: block;
+	font-size: 1.2em;
+	margin-left: 1px;
+	overflow: hidden;
+	height: 15px;
+}
+
+.appblock_longcompany {
+	font-size: 1em;
+	height: 14px;
+	margin-top: 1px;
+}
+
+.appblock_version {
+	display: block;
+	font-size: 1.1em;
+	margin-left: 1px;
+}
+
+.appblock_category {
+	display: block;
+	font-size: 1.1em;
+	margin-top: 6px;
+	margin-left: 1px;
+}
+
+
+/* Page: ViewApp
+ * ----------------- */
+ 
+#page_viewapp {
+	float: left;
+	clear: right;
+	width: 800px;
+	margin: 5px 0 10px 0;
+}
+
+#infobox {
+	float: left;
+	clear: right;
+}
+
+#leftcol {
+	float: left;
+	width: 380px;
+}
+
+#rightcol {
+	float: left;
+	width: 410px;
+	margin-left: 10px;
+}
+
+#detailbox {
+	float: left;
+}
+
+#iconbox {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#textinfo {
+	float: left;
+	width: 260px;
+	margin-left: 10px;
+}
+
+#textinfo span {
+	display: block;
+	color: #ddd;
+}
+
+.sectiontitle {
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	margin: 4px 0 2px 0;
+	float: left;
+	clear: right;
+}
+
+#screenshots {
+	float: left;
+	width: 380px;
+	margin-top: 15px;
+}
+
+#screenshots img {
+	margin-top: 10px;
+}
+
+#screenshots img.vert {
+	margin-left: 30px;
+	width: 320px;
+	height: 460px;
+}
+
+#screenshots img.horiz {
+	margin-left: 0;
+	width: 380px;
+	height: 253px;
+}
+
+#textinfo_name {
+	font-size: 2.2em;
+	color: #fff !important;
+}
+
+#textinfo_company {
+	font-size: 1.4em;
+	margin: -2px 0 10px 0;
+	color: #fff !important;
+}
+
+#descriptionblock,
+#versionblock,
+#languageblock,
+#requirementsblock {
+	margin: 5px 0 10px 0;
+	float: left;
+	clear: both;
+}
+
+.textblock {
+	display: block;
+	padding-left: 0px;
+	float: left;
+	font-size: 1.2em;
+	margin-top: 5px;
+	color: #ddd;
+	line-height: 1.45em;
+	width: 400px;
+}
+
+#linkbox {
+	float: left;
+	clear: both;
+	margin-top: 25px;
+}
+
+#linkbox table {
+	float: left;
+	clear: both;
+	border: 0;
+	font-size: 1.1em;
+	width: 650px;
+	border-spacing: 0 5px;
+	margin: 0 0 26px 75px;
+}
+
+#linkbox table tr.toprow {
+	color: #2d42ff;
+	font-size: 1.2em;
+	vertical-align: bottom;
+	text-align: left;
+}
+
+#linkbox table td.linkid {
+	width: 54px;
+	}
+#linkbox table td.submitter {
+	width: 150px;
+	}
+#linkbox table td.dateadded {
+	width: 134px;
+	}
+#linkbox table td.cracker {
+	width: 110px;
+	}
+#linkbox table td.ptype {
+	width: 110px;
+	}
+#linkbox table td.download {
+	width: 85px;
+	}
+
+
+/* Page: AppList
+ * ----------------- */
+
+.listnav {
+	float: left;
+	clear: both;
+}
+
+.nav_setup {
+	float: left;
+	clear: both;
+	font-size: 1.1em;
+	width: 800px;
+	margin-left: 6px;
+	color: #eee;
+	text-align: center;
+}
+
+.nav_pages {
+	float: left;
+	width: 172px;
+	margin: 0 0 10px 314px;
+}
+
+.nav_pages div {
+	margin: 0 2px 0 2px;
+}
+
+select.perpage {
+	width: 50px;
+}
+select.sortby {
+	width: 162px;
+}
+select.category {
+	width: 142px;
+}
+input.doitbutton {
+	width: 50px;
+}
+
+.filter {
+	width: 180px;
+	margin: 0 4px 0 8px;
+}
+
+.nav_first,
+.nav_prev,
+.nav_next,
+.nav_last {
+	width: 24px;
+	height: 24px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+}
+.nav_first_on,
+.nav_prev_on,
+.nav_next_on,
+.nav_last_on {
+	cursor: pointer;
+}
+
+.pagesel {
+	float: left;
+	width: 50px;
+	margin: 3px 3px 0 3px;
+}
+
+.nav_first {
+	background-image: url(../images/first_off.png);
+}
+.nav_prev {
+	background-image: url(../images/prev_off.png);
+}
+.nav_next {
+	background-image: url(../images/next_off.png);
+}
+.nav_last {
+	background-image: url(../images/last_off.png);
+}
+.nav_first_on {
+	background-image: url(../images/first_on.png);
+}
+.nav_prev_on {
+	background-image: url(../images/prev_on.png);
+}
+.nav_next_on {
+	background-image: url(../images/next_on.png);
+}
+.nav_last_on {
+	background-image: url(../images/last_on.png);
+}
+
+#topnav {
+	float: left;
+	width: 800px;
+	clear: both;
+}
+#topnav .nav_pages {
+	float: left;
+}
+.rss_link {
+	float: left;
+	margin: 6px 0 0 198px;
+	font-size: 1.1em;
+}
+.rss_link a {
+	color: #fff;
+}
+.rss_link a:hover {
+	color: #fda;
+	text-decoration: none;
+}
+.rss_link img {
+	margin-top: -2px;
+}
+.rss_link span {
+	vertical-align: top;
+	margin: 0 0 0 5px;
+}
+
+#applistblock {
+	float: left;
+	clear: both;
+	width: 804px;
+	margin: 0px 0 18px 0;
+}
+
+#applistblock .appblock {
+	margin: 6px 5px 0 0;
+}
+
+#page_applist .error {
+	display: block;
+	text-align: center;
+	font-size: 2.4em;
+	margin: 50px 0 40px 0;
+	color: #faa;
+}
+
+#page_applist .appblock {
+	cursor: pointer;
+}
+
+.thanks {
+	float: left;
+	clear: both;
+}
+
+
+/* Page: Submit
+ * ----------------- */
+ 
+#page_submit {
+	float: left;
+	clear: right;
+	margin-bottom: 5px;
+}
+
+#itunesblock {
+	float: left;
+	clear: right;
+	width: 784px;
+	padding: 10px 8px 10px 8px;
+	margin: 5px 0 5px 0;
+}
+
+#page_submit label {
+	font-size: 1.3em;
+	margin: 0 4px 0 0;
+}
+
+#page_submit .textfield {
+	border: 1px solid #2d42ff;
+}
+
+#itunesfield {
+	float: left;
+	margin-left: 20px;
+	padding: 15px 0 0 0;
+}
+
+.validitylabel {
+	display: block;
+	margin-bottom: 2px;
+}
+
+.itunesurl {
+	float: left;
+}
+
+#itunesurl {
+	width: 480px;
+}
+
+#fullform {
+	visibility: hidden;
+	height: 0px;
+}
+
+#itunesvalid {
+	display: block;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: -2px 0 2px 4px;
+}
+
+.valid_check {
+	background-image: url(../images/tick.png);
+}
+
+.valid_cross {
+	background-image: url(../images/cross.png);
+}
+
+.valid_think {
+	background-image: url(../images/smallload.gif);
+}
+
+#versionrow {
+	float: left;
+	clear: right;
+	width: 800px;
+	margin: -25px 0 15px 0;
+	padding: 7px 0 6px 0;
+}
+
+#versionrow label {
+	display: block;
+}
+
+#versionfield {
+	float: left;
+	width: 249px;
+	margin-left: 292px;
+}
+
+#versionselect,
+#crackerselect {
+	float: left;
+}
+
+#versionselect select,
+#crackerselect select {
+	width: 90px;
+}
+
+#versiontext,
+#crackertext {
+	float: left;
+	margin-left: 20px;
+}
+
+#versiontext input {
+	width: 90px;
+}
+
+#crackertext input {
+	width: 120px;
+}
+
+#crackerfield {
+	float: left;
+	clear: right;
+}
+
+.linkrow {
+	float: left;
+	clear: right;
+	width: 600px;
+	margin: 0px 0 10px 100px;
+	padding: 9px 0 8px 0;
+	background-color: #222;
+}
+
+.linkrow label {
+	display: block;
+}
+
+.linkblock,
+.packagerblock,
+.typeblock,
+.miscblock {
+	float: left;
+	margin-left: 20px;
+}
+
+.typeblock {
+	margin-left: 22px;
+}
+
+.linkblock {
+	margin-left: 16px;
+}
+
+.miscblock {
+	visibility: hidden;
+}
+
+.linkblock input {
+	width: 450px;
+}
+
+.packagerblock input {
+	width: 90px;
+}
+
+.typeblock select {
+	width: 90px;
+}
+
+.miscblock select {
+	width: 90px;
+}
+
+.linkerror {
+	float: left;
+	display: block;
+	visibility: hidden;
+	}
+	
+.linkerroractive {
+	visibility: visible;
+	color: #f99;
+	}
+
+#addlinkblock {
+	float: left;
+	clear: right;
+	font-size: 1.1em;
+	color: #2d42ff;
+	margin-left: 100px;
+	cursor: pointer;
+}
+
+#addlinkblock:hover {
+	text-decoration: underline;
+}
+
+#submitblock {
+	float: left;
+	clear: both;
+	width: 800px;
+	text-align: center;
+	margin: 10px 0 2px 0;
+}
+
+#submitblock input {
+	border: 1px solid #2d42ff;
+	background-color: #000;
+	color: #fff;
+	font-size: 1.4em;
+	padding: 5px 8px 5px 8px;
+	cursor: pointer;
+}
+
+#submitblock input:hover {
+	color: #2d42ff;
+}
+
+#submitblock input:active {
+	padding: 6px 7px 4px 9px;
+}
+
+.disabledlabel {
+	color: #999;
+}
+
+.disabledfield {
+	border: 1px solid #999;
+	background-color: #ddd;
+}
+
+.formmessage {
+	display: block;
+	float: left;
+	width: 800px;
+	margin: 20px 0 20px 0;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+.formfailure {
+	color: #f55;
+}
+
+.formsuccess {
+	color: #5f5;
+}
+
+.footerup {
+	margin-top: -165px;
+}
+
+#nosubmit {
+	float: left;
+	height: 240px;
+}
+
+#submitnotes {
+	float: left;
+	height: 530px;
+}
+
+.continuelink {
+	text-align: center !important;
+	width: 600px !important;
+	font-size: 1.8em !important;
+	margin: 20px 0 0 0 !important;
+}
+
+/* Login/Register
+ * ----------------- */
+
+#page_register {
+	float: left;
+	clear: both;
+	width: 800px;
+}
+
+#logblock {
+	margin: 0 20px 0 16px;
+}
+
+#logblock,
+#regblock {
+	float: left;
+	clear: right;
+	width: 348px;
+	background-color: #111;
+	padding: 10px 13px 0 13px;
+}
+
+#logblock {
+	height: 152px;
+}
+
+#regblock {
+	height: 380px;
+}
+
+.submitbox,
+.formrow,
+.remembermerow,
+.agreetermsrow,
+.captcharow {
+	float: left;
+	clear: both;
+	width: 340px;
+	margin: 6px 0 8px 8px;
+}
+
+#logblock label,
+#regblock label {
+	display: block;
+	float: left;
+	font-size: 1.3em;
+	width: 110px;
+	margin-top: 5px;
+}
+
+#regblock .textfield {
+	width: 220px;
+}
+
+#logblock .formrow label {
+	width: 80px;
+}
+
+#logblock .textfield {
+	width: 200px;
+}
+
+#page_register .textfield {
+	border: 1px solid #2d42ff;
+}
+
+#rememberme {
+	float: left;
+	margin: 6px 8px 0 80px;
+}
+
+.remembermerow {
+	margin-top: -6px;
+}
+
+#agreeterms {
+	float: left;
+	margin: 6px 8px 0 50px;
+}
+
+.agreetermsrow label {
+	width: auto !important;
+}
+
+.captcharow {
+	width: 320px;
+	margin-left: 15px;
+}
+
+.recaptcha_only_if_no_incorrect_sol {
+	color: #fff !important;
+}
+
+.submitbox {
+	float: left;
+	text-align: center;
+}
+
+#privacyinfo {
+	float: left;
+	clear: both;
+	margin: 20px 0 0 100px;
+	width: 600px;
+}
+
+#privacyinfo ul {
+	float: left;
+	clear: both;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+#privacyinfo ul li {
+	margin: 0 0 8px 0;
+}
+
+.regerror,
+.loginerror {
+	float: left;
+	color: #f00;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 3px 0 3px 20px;
+	padding: 4px 7px 4px 7px;
+	border: 1px solid #f00;
+	width: 298px;
+}
+
+.registersuccess,
+.loginsuccess,
+.verifysuccess {
+	display: block;
+	float: left;
+	color: #5f5;
+	font-size: 2.0em;
+	text-align: center;
+	margin: 120px 30px 0 30px;
+}
+
+.spambox {
+	display: block;
+	float: left;
+	clear: both;
+	font-style: italic;
+	color: #efe;
+	text-align: center;
+	width: 100%;
+	margin-top: 30px;
+	font-size: 1.1em;
+}
+
+.loginsuccess {
+	display: block;
+	margin: 55px 0 0 0px;
+	width: 100%;
+}
+
+.verifysuccess {
+	margin-top: 65px;
+}
+
+#page_register .errormsg {
+	color: #f55;
+	display: block;
+	text-align: center;
+	font-size: 1.6em;
+	margin: 20px 0 26px 0;
+}
+
+span.verifying {
+	text-transform: none;
+	color: #5f5;
+}
+
+div.verifying {
+	margin: 10px 0 10px 200px !important;
+}
+
+
+/* Static pages
+ * ----------------- */
+
+.staticpage {
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.staticpage #pagetitle {
+	margin-left: -100px;
+}
+
+.staticpage p,
+.staticpage ul {
+	font-size: 1.3em;
+	text-align: justify;
+	margin-top: 3px;
+	line-height: 1.3em;
+}
+
+.staticpage ul {
+	margin-right: 20px;
+	line-height: 1.2em;
+}
+
+.staticpage ul li {
+	margin-bottom: 6px;
+}
+
+.staticpage h2 {
+	color: #4da2ff;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.site_links img {
+	margin: 2px 10px 2px 10px;
+}
+
+
+/* Footer
+ * ----------------- */
+ 
+#footer {
+	float: left;
+	clear: both;
+	padding-top: 20px;
+	height: 80px;
+	width: 800px;
+	background-image: url(../images/barbottom.png);
+	background-repeat: repeat-x;
+}
+
+#copyright {
+	color: #666;
+	font-size: 0.9em;
+}
+
+
+/* This seriously kills me
+ * ----------------------- */
+
+#getcash {
+	position: absolute;
+	top: 210px;
+	left: -135px;
+}

@@ -1,0 +1,20 @@
+.appinfo{padding:8px 5px 8px 5px!important;}
+.appinfo em,*[dir=rtl] .appinfo em{margin:0 !important;font-size:13px;line-height:25px;color:#7f7f7f;float:none}
+.appinfo big{font-size:15px;line-height:18px;white-space:normal;display:block;overflow:hidden;margin-top:-1px}
+.appinfo big small{font-size:13px;line-height:25px;display:block;font-weight:normal;color:#7f7f7f;margin-top:-1px}
+.appinfo img{float: left;margin:-1px 6px 0 0;}
+#screens{padding:5px;text-align:center;}
+#screens img{margin:0 4px 0 4px!important;}
+.textblock{font-weight:normal!important;padding:8px!important;}
+.fullscreen{text-align:center;}
+.iList ul li .cracker{color:#999;font-size:14px;}
+#WebApp{background:#161617 url(Img/bg.gif);}
+.iMenu h3,.iBlock h1,.iPanel,.iFooter,#iFooter legend{color:#2d42ff;text-shadow: rgba(50, 50, 120, 0.75) 2px 2px 0;}
+#logo{text-align:center;margin:5px 0 -5px 0;}
+.iBlock > p{font-size:17px;}
+.alt{background-color:#e8e8e8;}
+.iShop li img.iFull{width:80px !important;height:80px !important;background-color:transparent;background-image:none;margin-left: -4px!important;margin-top: -4px!important;}
+.iShop li big,.appinfo big{height:auto;margin-top:-7px;font-size:17px;position:relative;left:2px;}
+.iShop li em,.appinfo em{position:relative;top:-4px;left:2px;}
+.iShop li big small,.appinfo big small{margin-top:10px;margin-bottom:-3px;line-height:15px;font-size:12px;}
+.iMore{background-color: #eeeeff;}

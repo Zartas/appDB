@@ -1,0 +1,3 @@
+Available at http://www.hydrogenphp.com .
+
+AppDB was written for Hydrogen Alpha 1 and might not be compatible with any other version.

@@ -1,0 +1,71 @@
+/*
+ * styleIE.css
+ * Kyek
+ * September 3, 2008
+ *
+ * Created because Internet Explorer is a piece of shit browser that no one should use, ever.
+ */
+
+.staticpage {
+	float: left;
+	clear: both;
+	width: 600px;
+	padding-bottom: 10px;
+}
+
+h2.pheading {
+	font-size: 1.6em;
+}
+
+#page_register form {
+	margin: -10px 0 -10px 0;
+}
+
+.submitbox,
+.formrow,
+.remembermerow,
+.agreetermsrow,
+.captcharow {
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+#rememberme {
+	float: left;
+	margin: 6px 8px 0 80px;
+}
+
+.remembermerow {
+	margin-top: -6px;
+}
+
+.captcharow {
+	width: 320px;
+	margin-left: 15px;
+}
+
+#privacyinfo {
+	width: 700px;
+}
+
+#linkbox {
+	width: 800px;
+}
+
+#facebox #linkbox {
+	width: 770px !important;
+}
+
+#descriptionblock,
+#versionblock,
+#languageblock,
+#requirementsblock {
+	width: 410px;
+}
+
+#facebox #descriptionblock,
+#facebox #versionblock,
+#facebox #languageblock,
+#facebox #requirementsblock {
+	width: 390px;
+}

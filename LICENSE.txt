@@ -1,0 +1,5 @@
+You may not sell this code or represent it as your own.  Otherwise, it's free.  Have fun :)
+
+Libraries distributed in the 'lib' folder -- other than 'appdb' -- are not property of Appulo.us and are subject to their own licenses.
+
+This LICENSE.txt file must be distributed in its original form wherever AppDB code is distributed.
